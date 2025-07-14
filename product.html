@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Gocad Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="gocadlogo.png" alt="GOCAD Fashion Logo" class="logo">
+            </div>
+            <div class="container">
+                <h1>GOCAD FASHION STORE</h1>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                        <li><a href="product.html" class="active">PRODUCTS</a></li>
+                        <li><a href="contact us.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="product-hero" style="background-image: url('product1.JPG');">
+            <div class="product-hero-overlay">
+                <h1 class="product-title" data-aos="fade-down">View Our Products</h1>
+                <p class="product-subtitle" data-aos="fade-up">Discover the latest in comfort, style, and affordability at Gocad Fashion Store.</p>
+            </div>
+        </section>
+
+        <!-- Search/Filter Bar (UI only) -->
+        <section class="product-search-section">
+            <form class="product-search-form" id="productSearchForm">
+                <input type="text" placeholder="Search products..." aria-label="Search products" id="productSearchInput">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="product-grid-section">
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card" data-aos="fade-up">
+                    <img src="IMG_0795.JPG" alt="Dress" class="product-img">
+                    <div class="product-info">
+                        <h3>Classic Dress</h3>
+                        <p>An outer garment for women or girls, available in all colors. Each dress costs <b>shs 20,000</b>. Wholesale discount: 20%.</p>
+                        <span class="product-price">shs 20,000</span>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="IMG_0796.JPG" alt="Jumper" class="product-img">
+                    <div class="product-info">
+                        <h3>Denim Jumper</h3>
+                        <p>Versatile denim jumper with suspenders. Can be worn on shirts, t-shirts, or crop tops. Slim fit sweater shirts also available.</p>
+                        <span class="product-price">shs 25,000</span>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="IMG_0799.JPG" alt="Shirt & Jeans" class="product-img">
+                    <div class="product-info">
+                        <h3>Shirt & Jeans</h3>
+                        <p>Collar shirts with full-length opening, stunning floral print jeans. Each t-shirt costs <b>shs 15,000</b>. High quality and customer approved.</p>
+                        <span class="product-price">shs 15,000</span>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="IMG_0801.JPG" alt="Jeans" class="product-img">
+                    <div class="product-info">
+                        <h3>Colorful Jeans</h3>
+                        <p>Jeans in blue, red, green, purple, white, and black. Each costs <b>shs 20,000</b>. Open all week. Asymmetrical zipper and belted waist for style.</p>
+                        <span class="product-price">shs 20,000</span>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="IMG_0803.JPG" alt="Crop Tops & Blouses" class="product-img">
+                    <div class="product-info">
+                        <h3>Crop Tops & Blouses</h3>
+                        <p>Crop tops and blouses in all colors and sizes. Each costs <b>shs 15,000</b>. Delivery available anywhere. Your support is our happiness!</p>
+                        <span class="product-price">shs 15,000</span>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About GOCAD</h3>
+                    <p>Your premier destination for trendy fashion and accessories. We bring you the latest styles at affordable prices.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, City</li>
+                        <li><i class="fas fa-phone"></i> +2567894563</li>
+                        <li><i class="fas fa-envelope"></i> info@gocadfashion.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/256701720024" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">copyright&copy;2024 Gocad Fashion store. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
